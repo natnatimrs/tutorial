@@ -5,44 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="">
-          <img src="./img/logo.svg" alt="logo" />
+    <!-- HEADER -->
+    <header class="page-header">
+      <nav class="page-nav">
+        <a class="logo" href="">
+          <img class="logo-image" src="./img/logo.svg" alt="logo" />
         </a>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Services and prices</a></li>
-          <li><a href="">Barbers</a></li>
-          <li><a href="">Contacts</a></li>
+        <ul class="menu list">
+          <li class="menu-item"><a class="menu-link link" href="">About</a></li>
+          <li class="menu-item">
+            <a class="menu-link link" href="">Services and prices</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="">Barbers</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+380441111111</a>
-      <button type="button">Online-booking</button>
+      <a class="phone-number link" href="tel:+380441111111">+380441111111</a>
+      <button class="modal-btn" type="button">Online-booking</button>
     </header>
     <main>
-      <section>
-        <ul>
-          <li class="">
-            <a href="" target="_blank" rel="noopener noreferrer nofollow"
-              >Instagram</a
-            >
-          </li>
-          <li class="">
-            <a href="" target="_blank" rel="noopener noreferrer nofollow"
-              >Youtube</a
-            >
-          </li>
-        </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
-          We are experts in trendy men’s haircuts. We work quickly, carefully
-          and with style.
-        </p>
+      <!--HERO-->
+      <section class="hero">
+        <div class="left-side-hero">
+          <ul class="media-list list">
+            <li class="media-list-item">
+              <a class="media-list-link link" href="" target="_blank" rel="noopener noreferrer nofollow"
+                >Instagram</a
+              >
+            </li>
+            <li class="media-list-item">
+              <a class="media-list-link link" href="" target="_blank" rel="noopener noreferrer nofollow"
+                >Youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="right-side-hero">
+          <p class="suptitle suptitle-theme-dark">A hair salon for men in Kyiv</p>
+          <h1 class="hero-title">BarberShop</h1>
+          <p class="section-description">
+            We are experts in trendy men’s haircuts. We work quickly, carefully
+            and with style.
+          </p>
+        </div>
       </section>
+      <!--ABOUT-->
       <section>
         <ul>
           <li>
@@ -52,7 +72,7 @@
             <img src="./img/aboutimg2.jpg" alt="shaving head" width="270" />
           </li>
         </ul>
-        <p>About</p>
+        <p class="suptitle suptitle-theme-light">About</p>
         <h2>Best Barbershop in your city</h2>
         <p>
           If you want to add more confidence to your image, you should
@@ -67,8 +87,9 @@
         </p>
         <button type="button">Online-booking</button>
       </section>
+      <!--SERVICES-->
       <section>
-        <p>Spend your time with the best masters</p>
+        <p class="suptitle">Spend your time with the best masters</p>
         <h2>Services and prices</h2>
         <ul>
           <li>
@@ -127,7 +148,7 @@
             <p>Gifts for regular customers</p>
           </li>
         </ul>
-        <p>Old traditional school</p>
+        <p class="suptitle">Old traditional school</p>
         <h2>¿Why people come to us?</h2>
         <p>
           Only good things are said about us. But it's better to see and feel 1
@@ -197,12 +218,14 @@
         <address>
           <ul>
             <li>
-              <a href="https://goo.gl/maps/6tqUzLDY6a4hyLXg6"
+              <a class="link" href="https://goo.gl/maps/6tqUzLDY6a4hyLXg6"
                 >st. Vasilkivska, 7A <br />
                 Kyiv, 08132</a
               >
             </li>
-            <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
+            <li>
+              <a class="link" href="tel:+380441111111">+38 044 111 11 11</a>
+            </li>
             <li>
               <a href="mailto:barbershop@email.com">barbershop@email.com</a>
             </li>
