@@ -1,0 +1,69 @@
+.body {
+    front-family: "open sans", sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+.header {
+    /*background-color: rgb(121, 117, 117);
+}
+/*============== COMPONENTS ============== */
+.modal-btn {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33
+letter-spacing: 0.09em;
+text-transform: uppercase;
+cursor: pointer;
+color: #FFFFFF;
+}
+
+/*============== /COMPONENTS ============== */
+.header-nav {
+}
+.header-logo {
+}
+.header-list {
+
+}
+
+.header-item {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33px;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+
+}
+.header-link {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+}
+
+.header-phone-number {
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.header-btn {
+font-family: inherit;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
