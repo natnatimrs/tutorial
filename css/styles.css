@@ -70,12 +70,12 @@ body {
   color: var(--accent-color);
 }
 
-.secondary-title{
-font-family: var(--secondary-front);
-font-weight: 700;
-font-size: 42px;
-line-height: 1.17;
-letter-spacing: 0.05em;
+.secondary-title {
+  font-family: var(--secondary-front);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
 }
 /*================ /COMPONENTS================*/
 
@@ -150,22 +150,22 @@ letter-spacing: 0.05em;
 .about-item {
 }
 .about-title {
-color: var(--secondary-text-color-dark-title);
+  color: var(--secondary-text-color-dark-title);
 }
 
 .dark {
-color: var(--secondary-text-color-light-subtitle);
+  color: var(--secondary-text-color-light-subtitle);
 }
 .about-text {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.86;
-letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
 
-color: var(--secondary-text-color-light-subtitle);
+  color: var(--secondary-text-color-light-subtitle);
 }
 .about-btn {
-color: var(--secondary-text-color-dark-title);
+  color: var(--secondary-text-color-dark-title);
 }
 
 /*================  /ABOUT ================*/
@@ -182,7 +182,6 @@ color: var(--secondary-text-color-dark-title);
   color: var(--primary-text-color-theme-light);
 }
 .prices-list {
-
 }
 .list {
 }
@@ -190,13 +189,13 @@ color: var(--secondary-text-color-dark-title);
 }
 .prices-item-text {
   background-color: #303030;
-font-weight: 400;
-font-size: 18px;
-line-height: 1.67;
-text-align: right;
-letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: right;
+  letter-spacing: 0.02em;
 
-color: var(--primary-text-color-theme-dark);
+  color: var(--primary-text-color-theme-dark);
 }
 
 .prices-btn {
@@ -210,30 +209,30 @@ color: var(--primary-text-color-theme-dark);
 .benefits-list {
 }
 .benefits-item {
-font-weight: 700;
-font-size: 42px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.05em;
-color: var(--secondary-text-color-dark-title);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--secondary-text-color-dark-title);
 }
 .benefits-item-text {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-text-align: center;
-color: var(--secondary-text-color-dark-title);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--secondary-text-color-dark-title);
 }
 .benefits-title {
   color: var(--secondary-text-color-dark-title);
 }
 .benefits-subtitle {
-font-weight: 400;
-font-size: 18px;
-line-height: 1.67;
-letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
 
-color: var(--secondary-text-color-light-subtitle);
+  color: var(--secondary-text-color-light-subtitle);
 }
 /*================  /BENEFITS ================*/
 /*================ TEAM ================*/
@@ -247,22 +246,21 @@ color: var(--secondary-text-color-light-subtitle);
 .team-item {
 }
 .team-img {
-  
 }
 .name-teame {
-font-size: 18px;
-line-height: 1.39;
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--secondary-text-color-dark-title);
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-dark-title);
 }
 .team-text {
-font-size: 14px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.02em;
 
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 /*================  /TEAM ================*/
 
@@ -298,58 +296,56 @@ color: var(--accent-color);
   background-color: #303030;
   color: var(--primary-text-color-theme-light);
 }
-.contact-adres {
-
+.contact-adress {
 }
 .contact-list {
 }
 .contact-item {
 }
 .contact-link {
-font-weight: 700;
-font-size: 18px;
-line-height: 1.67;
-letter-spacing: 0.02em;
-color:var(--primary-text-color-theme-dark);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-theme-dark);
 }
 .contact-tel {
-font-weight: 400;
-font-size: 18px;
-line-height: 1.67;
-letter-spacing: 0.02em;
-color: var(--primary-text-color-theme-dark);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-theme-dark);
 }
 .contact-mail {
-font-weight: 400;
-font-size: 18px;
-line-height: 1.67;
-letter-spacing: 0.02em;
-text-decoration-line: underline;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
 
-color:var(--primary-text-color-theme-dark);
+  color: var(--primary-text-color-theme-dark);
 }
 .suptitle-theme-dark {
   color: var(--primary-text-color-theme-light);
 }
 .contact-text {
-font-weight: 400;
-font-size: 18px;
-line-height: 1.67;
-letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
 
-color: var(--primary-text-color-theme-dark);
-
+  color: var(--primary-text-color-theme-dark);
 }
 
 /*================  /CONTACTS ================*/
 /*================  FOOTER ================*/
 
 .footer-text {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-letter-spacing: 0.2em;
-color: var(--primary-text-color-theme-dark);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--primary-text-color-theme-dark);
 }
 
 /*================  /FOOTER ================*/
