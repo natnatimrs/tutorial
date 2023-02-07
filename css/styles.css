@@ -10,6 +10,7 @@
 
 .link {
   text-decoration: none;
+
 }
 .list {
   list-style: none;
@@ -90,6 +91,8 @@ body {
 .logo-img {
 }
 .menu {
+    display: flex;
+flex-direction:  row-reverse;
 }
 .menu-item {
 }
@@ -101,7 +104,9 @@ body {
   line-height: 1.33;
   letter-spacing: 0.1em;
   color: var(--primary-text-color-theme-light);
+  
 }
+
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
