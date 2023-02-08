@@ -18,6 +18,13 @@
 body {
   font-family: var(--prymary-font);
 }
+h1, h2, h3, h4, h5, h6 ,p, ul {
+  margin: 0px;
+}
+img {
+  display: block;
+}
+
 /*================ COMPONENTS================*/
 
 .suptitle {
@@ -29,10 +36,12 @@ body {
 
 .suptitle-theme-dark {
   color: var(--primary-text-color-theme-light);
+  margin-bottom: 20px;
 }
 
 .suptitle-theme-light {
   color: var(--secondary-text-color-dark-title);
+  margin-bottom: 20px;
 }
 
 .section-description {
@@ -41,6 +50,8 @@ body {
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-theme-dark);
+  margin-bottom: 20px;
+
 }
 
 .modal-btn {
@@ -78,11 +89,22 @@ body {
   line-height: 1.17;
   letter-spacing: 0.05em;
 }
+.container {
+  background-color: #555555;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
+}
 /*================ /COMPONENTS================*/
 
 /*================ HEDER ================*/
 
 .page-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .page-nav {
 }
@@ -91,14 +113,12 @@ body {
 .logo-img {
 }
 .menu {
-    display: flex;
-flex-direction:  row-reverse;
+  
 }
 .menu-item {
 }
 
 .menu-link {
-  background-color: rgb(151, 151, 151);
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -113,7 +133,6 @@ flex-direction:  row-reverse;
 }
 
 .contact-phone {
-  background-color: rgb(151, 151, 151);
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
@@ -138,8 +157,10 @@ flex-direction:  row-reverse;
 }
 .right-side-hero {
 }
+.hero-description{
+
+}
 .main-title {
-  background-color: #303030;
   font-family: var(--secondary-front);
   font-weight: 700;
   font-size: 72px;
@@ -151,22 +172,33 @@ flex-direction:  row-reverse;
 /*================  ABOUT ================*/
 
 .about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  
+}
+
+.about-list {
+  padding-left: 0px  ;
 }
 .about-item {
 }
 .about-title {
   color: var(--secondary-text-color-dark-title);
+  margin-bottom: 20px;
 }
 
 .dark {
+  background-color: #ff6c00;
   color: var(--secondary-text-color-light-subtitle);
 }
+
 .about-text {
+  background-color: #ff6c00;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
-
+margin-bottom: 42px;
   color: var(--secondary-text-color-light-subtitle);
 }
 .about-btn {
@@ -177,13 +209,13 @@ flex-direction:  row-reverse;
 
 /*================  PRICES ================*/
 .prices {
+  background-color: #303030;
 }
 
 .suptitle-theme-dark {
   color: var(--primary-text-color-theme-dark);
 }
 .prices-title {
-  background-color: #303030;
   color: var(--primary-text-color-theme-light);
 }
 .prices-list {
@@ -193,12 +225,10 @@ flex-direction:  row-reverse;
 .prices-item {
 }
 .prices-item-text {
-  background-color: #303030;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
-  text-align: right;
-  letter-spacing: 0.02em;
+   letter-spacing: 0.02em;
 
   color: var(--primary-text-color-theme-dark);
 }
@@ -287,7 +317,6 @@ flex-direction:  row-reverse;
 }
 
 .booking-title {
-  background-color: #303030;
   color: var(--primary-text-color-theme-light);
 }
 
@@ -298,7 +327,6 @@ flex-direction:  row-reverse;
 .contact {
 }
 .contact-title {
-  background-color: #303030;
   color: var(--primary-text-color-theme-light);
 }
 .contact-adress {
