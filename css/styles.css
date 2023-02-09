@@ -91,7 +91,7 @@ img {
 }
 .container {
   background-color: #555555;
-  width: 1200px;
+  width: 1128px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -103,6 +103,7 @@ img {
 /*================ HEDER ================*/
 
 .page-header {
+  background-color: #555555;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -113,7 +114,6 @@ img {
 .logo-img {
 }
 .menu {
-  
 }
 .menu-item {
 }
