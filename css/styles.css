@@ -114,6 +114,7 @@ img {
 .logo-img {
 }
 .menu {
+  display: flex;
 }
 .menu-item {
 }
@@ -210,19 +211,27 @@ margin-bottom: 42px;
 /*================  PRICES ================*/
 .prices {
   background-color: #303030;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .suptitle-theme-dark {
   color: var(--primary-text-color-theme-dark);
+  
 }
 .prices-title {
   color: var(--primary-text-color-theme-light);
+  margin-bottom: 44px;
 }
 .prices-list {
+  border: 2px solid #ffffff;
+  padding: 30px 20px 30px 20px;
+  
 }
 .list {
 }
-.prices-item {
+.prices-item:not(last child) {
+  margin-bottom: 20px;
 }
 .prices-item-text {
   font-weight: 400;
@@ -240,16 +249,28 @@ margin-bottom: 42px;
 /*================  BENEFITS ================*/
 
 .benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .benefits-list {
 }
+
 .benefits-item {
+  width: 170px;
+  height: 133px;
+  border: 1px solid #000;
+  padding: 20px 24px;
+}
+
+.benefits-item > span {
   font-weight: 700;
   font-size: 42px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.05em;
   color: var(--secondary-text-color-dark-title);
+  display: block;
+  margin-bottom: 6px;
 }
 .benefits-item-text {
   font-weight: 600;
@@ -260,21 +281,26 @@ margin-bottom: 42px;
 }
 .benefits-title {
   color: var(--secondary-text-color-dark-title);
+  margin-bottom: 20px;
 }
 .benefits-subtitle {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
-
   color: var(--secondary-text-color-light-subtitle);
 }
 /*================  /BENEFITS ================*/
 /*================ TEAM ================*/
 .team {
+padding-top: 120px; 
 }
+.suptitle-theme-light{
+  margin-bottom: 20px;
+  }
 .team-title {
   color: var(--secondary-text-color-dark-title);
+  margin-bottom: 44px;
 }
 .team-list {
 }
@@ -282,12 +308,17 @@ margin-bottom: 42px;
 }
 .team-img {
 }
+.barbers-content {
+  padding-top: 30px;
+  padding-bottom: 74px;
+}
 .name-teame {
   font-size: 18px;
   line-height: 1.39;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-dark-title);
+  margin-bottom: 8px;
 }
 .team-text {
   font-size: 14px;
@@ -302,7 +333,12 @@ margin-bottom: 42px;
 /*================  GALERY ================*/
 
 .galery {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+.suptitle-theme-lightn{
+  margin-bottom: 44px;
+  }
 .galery-list {
 }
 .galery-item {
